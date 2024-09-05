@@ -70,6 +70,19 @@ function mostraAlternativas () {
         botaoAlternativa.textContent = alternativa.texto;
         botaoAlternativa.addEventListener ("click", () =>
         respostaSelecionada (alternativa));
-        caixaAlternativas.appendChild (botao)
+        caixaAlternativas.appendChild (botaoAlternativas);
     }
-}
+ }
+    function respostaSelecionada (opcaoSelecionada) {
+        cont afirmação = opcaoSelecionada.afirmacao;
+        historiaFinal += afirmacao + " ";
+        atual++
+        mostraPergunta();
+    }
+    function mostraResultado () {
+        caixaPerguntas.textContent = "Resumindo...";
+        textoResultado.textContent = historiaFinal;
+        caixaAlternativas.textContent = "";
+    }
+
+   mostraPergunta();
