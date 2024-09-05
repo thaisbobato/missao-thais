@@ -13,7 +13,7 @@ const perguntas = [
                 afirmacao: "Uma dieta variada fornece os nutrientes necessários para manter o corpo e a mente saudáveis."
             },
             {
-                texto: "Não, não acho que seja tão importante." 
+                texto: "Não, não acho que seja tão importante.", 
                 afirmacao: "Embora a alimentação seja relevante, outras práticas como exercícios físicos podem compensar."
             }
            
@@ -70,7 +70,7 @@ function mostraAlternativas () {
         botaoAlternativa.textContent = alternativa.texto;
         botaoAlternativa.addEventListener ("click", () =>
         respostaSelecionada (alternativa));
-        caixaAlternativas.appendChild (botaoAlternativas);
+        caixaAlternativas.appendChild (botaoAlternativa);
     }
  }
     function respostaSelecionada (opcaoSelecionada) {
