@@ -6,43 +6,43 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "Você acredita que uma alimentação balanceada é essencial para um estilo de vida saudável?",
         alternativas: [
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-                afirmacao: "afirmacao1"
+                texto: "Sim, uma alimentação balanceada é fundamental.",
+                afirmacao: "Uma dieta variada fornece os nutrientes necessários para manter o corpo e a mente saudáveis."
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: "Não, não acho que seja tão importante." 
+                afirmacao: "Embora a alimentação seja relevante, outras práticas como exercícios físicos podem compensar."
             }
            
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Você pratica exercícios físicos regularmente?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: "Sim, eu me exercito várias vezes por semana.",
+                afirmacao: "A atividade física regular melhora a saúde cardiovascular e aumenta a disposição."
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-                afirmacao: "afirmacao4"
+                texto: "Não, raramente pratico atividades físicas.",
+                afirmacao: "Ficar sedentário pode levar a problemas de saúde a longo prazo, mesmo com uma boa alimentação."
             }
            
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Você considera importante ter momentos de lazer e relaxamento em sua rotina?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao:"afirmacao5"
+                texto: "Sim, o lazer é essencial para o bem-estar.",
+                afirmacao:"Atividades de lazer ajudam a reduzir o estresse e promovem a saúde mental."
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao:"afirmacao6"
+                texto: "Não, prefiro focar em trabalho e responsabilidades.",
+                afirmacao:"Embora o trabalho seja importante, negligenciar o lazer pode levar ao burnout."
             }
         ]
     }
