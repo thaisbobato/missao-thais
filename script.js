@@ -74,7 +74,7 @@ function mostraAlternativas () {
     }
  }
     function respostaSelecionada (opcaoSelecionada) {
-        cont afirmação = opcaoSelecionada.afirmacao;
+        const afirmacao = opcaoSelecionada.afirmacao;
         historiaFinal += afirmacao + " ";
         atual++
         mostraPergunta();
