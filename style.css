@@ -1,9 +1,9 @@
 :root{
-    --cor-fundo: #01080E;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-fundo: #0775d4;
+    --cor-principal: #5968ee ;
+    --cor-secundaria: #071686;
+    --cor-destaque: #0093ad;
+    --cor-texto: #88e4f5;
   }
   
   body{
@@ -32,11 +32,11 @@
   }
   
   :root{
-    --cor-fundo: #01080E;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-fundo: #b9005d;
+    --cor-principal: #be15b0 ;
+    --cor-secundaria: #b005c7;
+    --cor-destaque: #e710ee;
+    --cor-texto: #000000;
   }
   
   button{
